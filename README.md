@@ -1,5 +1,5 @@
 # Group-3
-# ShopFinder(Proposed)
+# KHUJO
 
 Shafika Islam 1610239042 email: shafika.islam@northsouth.edu
 
