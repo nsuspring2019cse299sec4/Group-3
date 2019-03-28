@@ -25,4 +25,29 @@
             android:icon="@drawable/ic_area"
             android:title="Change area" />
     </group>
-    </menu>
+    
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_share"
+                android:title="About Bazar Mind" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share This App" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Rate Me" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Exit" />
+            <item
+                android:id="@+id/nav_signout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Signout" />
+        </menu>
+    </item>
+</menu>
