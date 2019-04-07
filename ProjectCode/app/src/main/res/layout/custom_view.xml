@@ -16,7 +16,41 @@
         android:textStyle="bold" />
 
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Send us informations"
+        android:textColor="#000000"
+        android:textSize="20sp" />
 
-        /> 
+    <EditText
+        android:id="@+id/shopName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:hint="shop name"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText,LabelFor" />
+
+    <EditText
+        android:id="@+id/category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:hint="category(optional)"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText,LabelFor" />
+
+    <EditText
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:hint="location"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText,LabelFor" />
 
 </LinearLayout>
