@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ShowListFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutParent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextNewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:focusable="auto"
+            android:hint="Title"
+            android:inputType="text"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/listViewShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutAddItem"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_plus" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/add_item"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight=".3"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<android.support.v7.widget.AppCompatButton-->
+        <!--android:id="@+id/btnCancel"-->
+        <!--style="?android:attr/borderlessButtonStyle"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@android:color/transparent"-->
+        <!--android:padding="12dp"-->
+        <!--android:text="Cancel"-->
+        <!--android:textColor="@color/primary_text"-->
+        <!--android:textColorLink="@color/colorPrimary"-->
+        <!--android:textSize="15sp">-->
+
+        <!--</android.support.v7.widget.AppCompatButton>-->
+
+        <!--<android.support.v7.widget.AppCompatButton-->
+        <!--android:id="@+id/btnSave"-->
+        <!--style="?android:attr/borderlessButtonStyle"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:background="@android:color/transparent"-->
+        <!--android:elevation="10dp"-->
+        <!--android:padding="12dp"-->
+        <!--android:text="Save"-->
+        <!--android:textColor="@color/colorPrimary"-->
+        <!--android:textColorLink="@color/colorPrimary"-->
+        <!--android:textSize="15sp">-->
+
+        <!--</android.support.v7.widget.AppCompatButton>-->
+
+        <!--</RelativeLayout>-->
+
+    </LinearLayout>
+
+</FrameLayout>
